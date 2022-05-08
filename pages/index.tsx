@@ -36,31 +36,31 @@ const Home: NextPage = () => {
           <Link href="/BookTickets">
             <a>
               <button className={buttonStyles.glowOnHover} type="button">
-                1 HOVER ME, THEN CLICK ME!
+                1 BOOK TICKETS
               </button>
             </a>
           </Link>
           <br />
-          <Link href="/BookTickets">
+          <Link href="/CheckDetails">
             <a>
               <button className={buttonStyles.glowOnHover} type="button">
-                2 HOVER ME, THEN CLICK ME!
+                2 CHECK DETAILS
               </button>
             </a>
           </Link>
           <br />
-          <Link href="/BookTickets">
+          <Link href="/AdminSpace">
             <a>
               <button className={buttonStyles.glowOnHover} type="button">
-                3 HOVER ME, THEN CLICK ME!
+                3 ADMIN SPACE
               </button>
             </a>
           </Link>
           <br />
-          <Link href="/BookTickets">
+          <Link href="/FunWithBot">
             <a>
               <button className={buttonStyles.glowOnHover} type="button">
-                4 HOVER ME, THEN CLICK ME!
+                4 FUN WITH BOTS
               </button>
             </a>
           </Link>
