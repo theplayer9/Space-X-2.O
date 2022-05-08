@@ -4,12 +4,12 @@
   margin: 35px auto;
 }
 
-#title {
+/* #title {
     position: relative;
     margin: 70px auto 50px;
     font-size: 60px;
     font-family: 'Press Start 2P', cursive;
-  }
+  } */
 
 /* ---Retro Header--- */
 
@@ -35,13 +35,13 @@
 
   transition: text-shadow 0.3s ease 0.3s, transform 0.3s ease 0.3s,
     letter-spacing 0.3s ease 0.3s;
+}
 
-  /* &:hover {
+.headerWrap :hover {
     transition: text-shadow 0.33s ease, transform 0.3s ease,
       letter-spacing 0.3s ease;
     text-shadow: 0 0 0 #004134, 0 1px 0 #00483b, 0 2px 0 #003528,
       0 3px 3px rgba(0, 0, 0, 0.9);
     transform: translate(0px, 15px) perspective(200px) rotateX(10deg);
     letter-spacing: 0.125em;
-  } */
-}
+  }

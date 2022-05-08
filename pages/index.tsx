@@ -20,7 +20,7 @@ const Home: NextPage = () => {
           </a> */}
           <div className={indexStyles.wrapper}>
             <div className={indexStyles.headerWrap}>
-              <h1>3D Retro Buttons</h1>
+              <h1>SPACE X- 2.O</h1>
             </div>
           </div>
         </h1>
