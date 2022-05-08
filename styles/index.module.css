@@ -5,6 +5,10 @@
   
 }
 
+.heading {
+    margin: 96px;
+}
+
 /* #title {
     position: relative;
     margin: 70px auto 50px;
@@ -20,7 +24,8 @@
   width: auto;
   height: auto;
   color: white;
-  padding: 0;
+  margin: 0;
+  padding: 0px;
   text-align: center;
   font-size: 45px;
   font-family: 'Press Start 2P', cursive;
