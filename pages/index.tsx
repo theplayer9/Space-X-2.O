@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-
+import indexStyles from '../styles/index.module.css'
 
 const Home: NextPage = () => {
   return (
@@ -9,14 +9,20 @@ const Home: NextPage = () => {
       <Head>
         <title>Space X- 2.O</title>
         <link rel="icon" href="/favicon.ico" />
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet"></link>
       </Head>
 
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
         <h1 className="text-6xl font-bold">
-          Welcome to{' '}
+          {/* Welcome to{' '}
           <a className="text-blue-600" href="https://nextjs.org">
             Next.js!
-          </a>
+          </a> */}
+          <div className={indexStyles.wrapper}>
+            <div className={indexStyles.headerWrap}>
+              <h1>3D Retro Buttons</h1>
+            </div>
+          </div>
         </h1>
 
         <p className="mt-3 text-2xl">
