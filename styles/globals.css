@@ -3,7 +3,7 @@
 @tailwind utilities;
 html,
 body {
-    background: url(../public/space\ img.jpg);
+    background: url(../public/spaceImg.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
