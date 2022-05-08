@@ -1,10 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* html,
+html,
 body {
     background: url(../public/space\ img.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-} */
+}

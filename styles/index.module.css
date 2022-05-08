@@ -19,15 +19,15 @@
   height: auto;
   padding: 0;
   text-align: center;
-  font-size: 25px;
+  font-size: 45px;
   font-family: 'Press Start 2P', cursive;
   transform: perspective(200px) rotateX(10deg);
   letter-spacing: 0.1em;
   user-select: none;
-  text-shadow: 0 -1px 0 #fff, 0 1px 0 #004d40, 0 2px 0 #00483b, 0 3px 0 #004639,
-    0 4px 0 #004336, 0 5px 0 #004134, 0 6px 0 #003f32, 0 7px 0 #003d30,
-    0 8px 0 #003a2d, 0 9px 0 #00382b, 0 10px 0 #003528, 0 11px 0 #003225,
-    0 12px 0 #002f22, 0 13px 0 #002b1e, 0 14px 0 #00281c, 0 15px 0 #001f13,
+  text-shadow: 0 -1px 0 #fff, 0 1px 0 #08004d, 0 2px 0 #001748, 0 3px 0 #000b46,
+    0 4px 0 #002d43, 0 5px 0 #002b41, 0 6px 0 #00153f, 0 7px 0 #00113d,
+    0 8px 0 #00143a, 0 9px 0 #001b38, 0 10px 0 #001435, 0 11px 0 #001b32,
+    0 12px 0 #001c2f, 0 13px 0 #000e2b, 0 14px 0 #001028, 0 15px 0 #00101f,
     0 22px 30px rgba(0, 0, 0, 0.9), 0 22px 30px rgba(0, 0, 0, 0.9),
     0 22px 15px rgba(0, 0, 0, 0.9), 0 11px 15px rgba(0, 0, 0, 0.9),
     0 15px 20px rgba(0, 0, 0, 0.9), 0 15px 11px rgba(0, 0, 0, 0.9),
@@ -40,8 +40,8 @@
 .headerWrap :hover {
     transition: text-shadow 0.33s ease, transform 0.3s ease,
       letter-spacing 0.3s ease;
-    text-shadow: 0 0 0 #004134, 0 1px 0 #00483b, 0 2px 0 #003528,
+    text-shadow: 0 0 0 #002f41, 0 1px 0 #003848, 0 2px 0 #002a35,
       0 3px 3px rgba(0, 0, 0, 0.9);
-    transform: translate(0px, 15px) perspective(200px) rotateX(10deg);
+    transform: translate(0px, 15px) perspective(200px) rotateX(5deg);
     letter-spacing: 0.125em;
   }
