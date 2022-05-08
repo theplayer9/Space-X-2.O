@@ -20,12 +20,12 @@ const Home: NextPage = () => {
           </a> */}
           <div className={indexStyles.wrapper}>
             <div className={indexStyles.headerWrap}>
-              <h1>SPACE X- 2.O</h1>
+              <h1>SPACE X-2.O</h1>
             </div>
           </div>
         </h1>
 
-        <p className="mt-3 text-2xl">
+        {/* <p className="mt-3 text-2xl">
           Get started by editing{' '}
           <code className="rounded-md bg-gray-100 p-3 font-mono text-lg">
             pages/index.tsx
@@ -72,7 +72,7 @@ const Home: NextPage = () => {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
-        </div>
+        </div> */}
       </main>
 
       <footer className="flex h-24 w-full items-center justify-center border-t">

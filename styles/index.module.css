@@ -1,7 +1,8 @@
 .wrapper {
   position: relative;
   display: inline-block;
-  margin: 35px auto;
+  margin: 20px auto;
+  
 }
 
 /* #title {
@@ -14,9 +15,11 @@
 /* ---Retro Header--- */
 
 .headerWrap {
-  display: block;
+  display: flex;
+  flex-direction: column;
   width: auto;
   height: auto;
+  color: white;
   padding: 0;
   text-align: center;
   font-size: 45px;
@@ -28,10 +31,10 @@
     0 4px 0 #002d43, 0 5px 0 #002b41, 0 6px 0 #00153f, 0 7px 0 #00113d,
     0 8px 0 #00143a, 0 9px 0 #001b38, 0 10px 0 #001435, 0 11px 0 #001b32,
     0 12px 0 #001c2f, 0 13px 0 #000e2b, 0 14px 0 #001028, 0 15px 0 #00101f,
-    0 22px 30px rgba(0, 0, 0, 0.9), 0 22px 30px rgba(0, 0, 0, 0.9),
-    0 22px 15px rgba(0, 0, 0, 0.9), 0 11px 15px rgba(0, 0, 0, 0.9),
-    0 15px 20px rgba(0, 0, 0, 0.9), 0 15px 11px rgba(0, 0, 0, 0.9),
-    0 16px 11px rgba(0, 0, 0, 0.9);
+    0 16px 11px rgba(68, 72, 77, 0.395), 0 22px 30px rgba(0, 0, 0, 0.368),
+    0 16px 11px rgba(68, 72, 77, 0.395), 0 11px 15px rgba(0, 0, 0, 0.381),
+    0 16px 11px rgba(68, 72, 77, 0.395), 0 15px 11px rgba(0, 0, 0, 0.434),
+    0 16px 11px rgba(68, 72, 77, 0.395);
 
   transition: text-shadow 0.3s ease 0.3s, transform 0.3s ease 0.3s,
     letter-spacing 0.3s ease 0.3s;
@@ -40,7 +43,7 @@
 .headerWrap :hover {
     transition: text-shadow 0.33s ease, transform 0.3s ease,
       letter-spacing 0.3s ease;
-    text-shadow: 0 0 0 #002f41, 0 1px 0 #003848, 0 2px 0 #002a35,
+    text-shadow: 0 0 0 #004102, 0 1px 0 #004805, 0 2px 0 #003509,
       0 3px 3px rgba(0, 0, 0, 0.9);
     transform: translate(0px, 15px) perspective(200px) rotateX(5deg);
     letter-spacing: 0.125em;
