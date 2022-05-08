@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import indexStyles from '../styles/index.module.css'
 import buttonStyles from '../styles/button.module.css'
 // import spacepic from '../public/spaceImg.jpg'
@@ -11,7 +12,10 @@ const Home: NextPage = () => {
       <Head>
         <title>Space X- 2.O</title>
         <link rel="icon" href="/favicon.ico" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"></link>
+        <link
+          href="https://fonts.googleapis.com/css?family=Roboto"
+          rel="stylesheet"
+        ></link>
         <link
           href="https://fonts.googleapis.com/css?family=Press+Start+2P"
           rel="stylesheet"
@@ -28,22 +32,39 @@ const Home: NextPage = () => {
           </div>
         </h1>
 
-        <div className="mt-6 w-10 flex max-w-6xl flex-wrap items-center justify-around sm:w-full">
-          <button className={buttonStyles.glowOnHover} type="button">
-            1 HOVER ME, THEN CLICK ME!
-          </button>
+        <div className="mt-6 flex w-10 max-w-6xl flex-wrap items-center justify-around sm:w-full">
+          <Link href="/BookTickets">
+            <a>
+              <button className={buttonStyles.glowOnHover} type="button">
+                1 HOVER ME, THEN CLICK ME!
+              </button>
+            </a>
+          </Link>
           <br />
-          <button className={buttonStyles.glowOnHover} type="button">
-            2 HOVER ME, THEN CLICK ME!
-          </button>
+          <Link href="/BookTickets">
+            <a>
+              <button className={buttonStyles.glowOnHover} type="button">
+                2 HOVER ME, THEN CLICK ME!
+              </button>
+            </a>
+          </Link>
           <br />
-          <button className={buttonStyles.glowOnHover} type="button">
-            3 HOVER ME, THEN CLICK ME!
-          </button>
+          <Link href="/BookTickets">
+            <a>
+              <button className={buttonStyles.glowOnHover} type="button">
+                3 HOVER ME, THEN CLICK ME!
+              </button>
+            </a>
+          </Link>
           <br />
-          <button className={buttonStyles.glowOnHover} type="button">
-            4 HOVER ME, THEN CLICK ME!
-          </button>
+          <Link href="/BookTickets">
+            <a>
+              <button className={buttonStyles.glowOnHover} type="button">
+                4 HOVER ME, THEN CLICK ME!
+              </button>
+            </a>
+          </Link>
+          <br />
         </div>
 
         {/* <p className="mt-3 text-2xl">
